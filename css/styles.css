@@ -49,10 +49,15 @@ nav li a:hover{
 
 section{
     display: flex;
+    color:white;
 }
 
 article{
     flex: 1;
+    padding: 25px;
+    margin: 25px;
+    background-color: #BAD9B5;
+    border-radius: 12px;
 }
 
 footer{
@@ -65,4 +70,9 @@ footer div {
 
 .logo{
     width: 50px;
+}
+
+#copyright{
+    text-align: right;
+    text-decoration:overline;
 }
